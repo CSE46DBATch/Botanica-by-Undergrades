@@ -1,13 +1,13 @@
 body.dark {
-    --cream: #0f1a14;
-    --white: #1a2820;
-    --text-dark: #e8f5e9;
-    --text-mid: #b2dfdb;
-    --text-muted: #80cbc4;
-    --green-pale: #1b3a2d;
+    --cream: rgb(15, 26, 20);
+    --white: rgb(26, 40, 32);
+    --text-dark: rgb(232, 245, 233);
+    --text-mid: rgb(178, 223, 219);
+    --text-muted: rgb(128, 203, 196);
+    --green-pale: rgb(27, 58, 45);
     --shadow: 0 4px 24px rgba(0, 0, 0, 0.4);
     --shadow-lg: 0 16px 64px rgba(0, 0, 0, 0.5);
-    background: #0f1a14;
+    background: rgb(15, 26, 20);
 }
 
 body.dark nav {
@@ -15,8 +15,8 @@ body.dark nav {
 }
 
 body.dark .plant-card {
-    background: #152318;
-    border-color: #2a4a35;
+    background: rgb(21, 35, 24);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .plant-card-name {
@@ -24,119 +24,119 @@ body.dark .plant-card-name {
 }
 
 body.dark .plant-card-body {
-    background: #152318;
+    background: rgb(21, 35, 24);
 }
 
 body.dark .modal {
-    background: #152318;
+    background: rgb(21, 35, 24);
 }
 
 body.dark .modal-info-card {
-    background: #1e3028;
-    border-color: #2a4a35;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .form-card {
-    background: #152318;
+    background: rgb(21, 35, 24);
 }
 
 body.dark .form-group input,
 body.dark .form-group select,
 body.dark .form-group textarea {
-    background: #1e3028;
-    border-color: #2a4a35;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
     color: var(--text-dark);
 }
 
 body.dark .counter-box {
-    background: #152318;
-    border-color: #2a4a35;
+    background: rgb(21, 35, 24);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .modal-tab {
-    color: #80cbc4;
+    color: rgb(128, 203, 196);
 }
 
 body.dark .care-step {
-    background: #1e3028;
+    background: rgb(30, 48, 40);
 }
 
 body.dark .cure-step {
-    background: #2d1515;
+    background: rgb(45, 21, 21);
 }
 
 body.dark .prod-card {
-    background: #1e3028;
-    border-color: #2a4a35;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .variety-card {
-    background: #1e3028;
-    border-color: #2a4a35;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .variety-card.best {
-    background: #2a2010;
-    border-color: #c9a227;
+    background: rgb(42, 32, 16);
+    border-color: rgb(201, 162, 39);
 }
 
 body.dark #encyclopedia {
-    background: #111d17 !important;
+    background: rgb(17, 29, 23) !important;
 }
 
 body.dark .search-input-wrap input {
-    background: #1e3028;
-    border-color: #2a4a35;
-    color: #e8f5e9;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
+    color: rgb(232, 245, 233);
 }
 
 body.dark .filter-dropdown {
-    background: #1e3028;
-    border-color: #2a4a35;
-    color: #e8f5e9;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
+    color: rgb(232, 245, 233);
 }
 
 body.dark .page-btn {
-    background: #1e3028;
-    border-color: #2a4a35;
-    color: #e8f5e9;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
+    color: rgb(232, 245, 233);
 }
 
 body.dark #register {
-    background: #0f1a14;
+    background: rgb(15, 26, 20);
 }
 
 body.dark #contact {
-    background: #111d17 !important;
+    background: rgb(17, 29, 23) !important;
 }
 
 body.dark .data-panel {
-    background: #152318;
-    border-color: #2a4a35;
+    background: rgb(21, 35, 24);
+    border-color: rgb(42, 74, 53);
 }
 
 body.dark .data-table th {
-    background: #1e3028;
-    color: #95d5b2;
+    background: rgb(30, 48, 40);
+    color: rgb(149, 213, 178);
 }
 
 body.dark .data-table td {
-    border-color: #2a4a35;
-    color: #e8f5e9;
+    border-color: rgb(42, 74, 53);
+    color: rgb(232, 245, 233);
 }
 
 body.dark .data-table tr:nth-child(even) td {
-    background: #1a2c22;
+    background: rgb(26, 44, 34);
 }
 
 body.dark .login-card {
-    background: #152318;
+    background: rgb(21, 35, 24);
 }
 
 body.dark .login-card input {
-    background: #1e3028;
-    border-color: #2a4a35;
-    color: #e8f5e9;
+    background: rgb(30, 48, 40);
+    border-color: rgb(42, 74, 53);
+    color: rgb(232, 245, 233);
 }
 
 /* DARK MODE TOGGLE */
@@ -161,7 +161,7 @@ body.dark .login-card input {
 }
 
 .dark-toggle:hover {
-    color: #fff;
+    color: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -178,7 +178,7 @@ body.dark .login-card input {
 .toggle-knob {
     width: 18px;
     height: 18px;
-    background: #fff;
+    background: rgb(255, 255, 255);
     border-radius: 50%;
     position: absolute;
     top: 3px;
@@ -188,7 +188,7 @@ body.dark .login-card input {
 }
 
 body.dark .toggle-track {
-    background: #f59e0b;
+    background: rgb(245, 158, 11);
 }
 
 body.dark .toggle-knob {
