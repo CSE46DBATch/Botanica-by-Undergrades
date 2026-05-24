@@ -306,15 +306,6 @@ body {
 
 
 
-/* Style toggle section */
-.style-toggle-bar {
-    display: flex;
-    gap: 10px;
-    justify-content: center;
-    padding: 1rem 2rem;
-    background: var(--green-deep);
-    flex-wrap: wrap;
-}
 
 .style-btn {
     padding: 6px 18px;
