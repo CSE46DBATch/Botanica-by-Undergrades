@@ -7,7 +7,7 @@
 }
 
 .plant-card {
-    background: white;
+    background: rgb(255, 255, 255);
     border: 1.5px solid rgba(149, 213, 178, 0.25);
     border-radius: var(--radius);
     overflow: hidden;
@@ -86,43 +86,43 @@
 }
 
 .tag-tree {
-    background: #d8f3dc;
+    background: rgb(216, 243, 220);
     color: var(--green-mid);
 }
 
 .tag-herb {
-    background: #fff3cd;
-    color: #856404;
+    background: rgb(255, 243, 205);
+    color: rgb(133, 100, 4);
 }
 
 .tag-shrub {
-    background: #cfe2ff;
-    color: #084298;
+    background: rgb(207, 226, 255);
+    color: rgb(8, 66, 152);
 }
 
 .tag-vine {
-    background: #f8d7da;
-    color: #842029;
+    background: rgb(248, 215, 218);
+    color: rgb(132, 32, 41);
 }
 
 .tag-crop {
-    background: #e2d9f3;
-    color: #432874;
+    background: rgb(226, 217, 243);
+    color: rgb(67, 40, 116);
 }
 
 .tag-flower {
-    background: #fce4ec;
-    color: #880e4f;
+    background: rgb(252, 228, 236);
+    color: rgb(136, 14, 79);
 }
 
 .tag-medicinal {
-    background: #e8f5e9;
-    color: #1b5e20;
+    background: rgb(232, 245, 233);
+    color: rgb(27, 94, 32);
 }
 
 .tag-fruit {
-    background: #fff8e1;
-    color: #f57f17;
+    background: rgb(255, 248, 225);
+    color: rgb(245, 127, 23);
 }
 
 .plant-card-desc {
