@@ -1,17 +1,17 @@
 :root {
-    --green-deep: #1a3d2b;
-    --green-mid: #2d6a4f;
-    --green-bright: #52b788;
-    --green-light: #95d5b2;
-    --green-pale: #d8f3dc;
-    --gold: #e9c46a;
-    --amber: #f4a261;
-    --earth: #8b5e3c;
-    --cream: #fefae0;
-    --white: #ffffff;
-    --text-dark: #1a1a1a;
-    --text-mid: #3d3d3d;
-    --text-muted: #6b7280;
+    --green-deep: rgb(26, 61, 43);
+    --green-mid: rgb(45, 106, 79);
+    --green-bright: rgb(82, 183, 136);
+    --green-light: rgb(149, 213, 178);
+    --green-pale: rgb(216, 243, 220);
+    --gold: rgb(233, 196, 106);
+    --amber: rgb(244, 162, 97);
+    --earth: rgb(139, 94, 60);
+    --cream: rgb(254, 250, 224);
+    --white: rgb(255, 255, 255);
+    --text-dark: rgb(26, 26, 26);
+    --text-mid: rgb(61, 61, 61);
+    --text-muted: rgb(107, 114, 128);
     --shadow: 0 4px 24px rgba(26, 61, 43, 0.12);
     --shadow-lg: 0 16px 64px rgba(26, 61, 43, 0.2);
     --radius: 16px;
@@ -296,12 +296,12 @@ body {
 
 .counter-btn.rst {
     background: white;
-    color: #ef4444;
-    border-color: #ef4444;
+    color: rgb(239, 68, 68);
+    border-color: rgb(239, 68, 68);
 }
 
 .counter-btn.rst:hover {
-    background: #fee2e2;
+    background: rgb(254, 226, 226);
 }
 
 
